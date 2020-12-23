@@ -268,8 +268,38 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\edit}[3]{}
-{\overset{R_{#1}\to R_{#1}+#3R_{#2}}{\longrightarrow}}
+\newcommand{\addRow}[2]{}
+{\overset{R_{#1}\to R_{#1}+R_{#2}}{\longrightarrow}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\subRow}[2]{}
+{\overset{R_{#1}\to R_{#1}-R_{#2}}{\longrightarrow}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\addkRow}[3]{}
+{\overset{R_{#1}\to R_{#1}+#2R_{#3}}{\longrightarrow}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\subkRow}[3]{}
+{\overset{R_{#1}\to R_{#1}-#2R_{#3}}{\longrightarrow}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\arrowaction}[1]{}
+{\overset{#1}{\longrightarrow}}
 \end_inset
 
 
@@ -297,6 +327,15 @@
 \begin_inset FormulaMacro
 \newcommand{\set}[2]{}
 {\left\{ #1\,|\,#2\right\} }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\matrices}[3]{}
+{M_{#1\times#2}\left(#3\right)}
 \end_inset
 
 
