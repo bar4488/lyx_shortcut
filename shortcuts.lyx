@@ -181,7 +181,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\oinfsum}[2]{}
+\newcommand{\sumoinf}[2]{}
 {\sum_{#1=0}^{\infty}#2}
 \end_inset
 
@@ -190,7 +190,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\infsum}[3]{}
+\newcommand{\suminf}[3]{}
 {\sum_{#1=#2}^{\infty}#3}
 \end_inset
 
