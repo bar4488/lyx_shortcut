@@ -334,7 +334,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\matrices}[3]{}
+\newcommand{\mats}[3]{}
 {M_{#1\times#2}\left(#3\right)}
 \end_inset
 
@@ -343,7 +343,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\smatrix}[2]{}
+\newcommand{\smats}[2]{}
 {M_{#1}\left(#2\right)}
 \end_inset
 
