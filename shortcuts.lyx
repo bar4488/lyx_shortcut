@@ -307,7 +307,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\=}[1]{\overset{#1}{=}}
+\newcommand{\eqcomm}[1]{\overset{#1}{=}}
 {\overset{#1}{=}}
 \end_inset
 
@@ -325,7 +325,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\set}[2]{\left\{ #1\,|\,#2\right\} }
+\newcommand{\set}[2]{\left\{  #1\,|\,#2\right\}  }
 {\left\{ #1\,|\,#2\right\} }
 \end_inset
 
