@@ -316,14 +316,32 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\nton}{\,^{\mathbb{N}}\mathbb{N}}
-{\,^{\mathbb{N}}\mathbb{N}}
+\newcommand{\ps}[3]{\prescript{#1}{#2}{#3}}
+{_{#2}^{#1}#3}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\selfunc}[1]{\ps{#1}{}{#1}}
+{\ps{#1}{}{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\nton}{\selfunc{\mathbb{N}}}
+{\selfunc{\mathbb{N}}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\newcommand{\rtor}{\,^{\mathbb{\mathbb{R}}}\mathbb{R}}
-{\,^{\mathbb{\mathbb{R}}}\mathbb{R}}
+\newcommand{\rtor}{\selfunc{\mathbb{R}}}
+{\selfunc{\mathbb{R}}}
 \end_inset
 
 
@@ -333,6 +351,15 @@
 \begin_inset FormulaMacro
 \newcommand{\set}[2]{\left\{  #1\,|\,#2\right\}  }
 {\left\{ #1\,|\,#2\right\} }
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pset}[1]{\mathcal{P}\left(#1\right)}
+{\mathcal{P}\left(#1\right)}
 \end_inset
 
 
@@ -351,15 +378,6 @@
 \begin_inset FormulaMacro
 \newcommand{\smats}[2]{M_{#1}\left(#2\right)}
 {M_{#1}\left(#2\right)}
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\ps}[3]{\prescript{#1}{#2}{#3}}
-{_{#2}^{#1}#3}
 \end_inset
 
 
