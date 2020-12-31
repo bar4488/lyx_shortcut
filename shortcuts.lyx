@@ -394,8 +394,8 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\norm}{\mathfrak{\left\Vert \right\Vert }}
-{\left\Vert \right\Vert }
+\newcommand{\norm}[1]{\mathfrak{\left\Vert #1\right\Vert }}
+{\left\Vert #1\right\Vert }
 \end_inset
 
 
