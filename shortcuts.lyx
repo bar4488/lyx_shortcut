@@ -313,13 +313,13 @@
 
 
 \begin_inset FormulaMacro
-\newcommand{\lecomm}[1]{\overset{#1}{\le}}
+\newcommand{\commle}[1]{\overset{#1}{\le}}
 {\overset{#1}{\le}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\newcommand{\gecomm}[1]{\overset{#1}{\ge}}
+\newcommand{\commge}[1]{\overset{#1}{\ge}}
 {\overset{#1}{\ge}}
 \end_inset
 
