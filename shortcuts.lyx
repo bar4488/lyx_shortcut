@@ -413,5 +413,14 @@
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ordle}[1]{\le_{#1}}
+{\le_{#1}}
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
