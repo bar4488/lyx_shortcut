@@ -424,7 +424,7 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\divide}{\,|\,}
+\newcommand{\divides}{\,|\,}
 {\,|\,}
 \end_inset
 
